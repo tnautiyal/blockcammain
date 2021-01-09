@@ -26,19 +26,20 @@ Link to article: [here](https://blog.usejournal.com/build-a-decentralized-react-
     ipfs daemon 
     ```
 * cd into the backend folder and run
+    ```npm i ```
     ```npm start ```
-
-* install dependencies
-    ``` npm i ```
     
-* start ganache 
+* start ganache in another terminal
     ```node_modules/.bin/testrpc```
 
-* cd into frontend
+* cd into "dapper copy"
 
 * install dependencies
     ``` npm i ```
-    
+
+* start   ```expo start```
+ 
+ -------Orig instructs---
 * Add  a local.properties file in the root of the android folder.The local.properties should contain  a link to your sdk e.g
     ```sdk.dir = /Users/david/Library/Android/sdk```
     
